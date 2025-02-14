@@ -82,9 +82,9 @@ main {
     height: auto;
 }
 
-.resume-container-top, .resume-container-bottom {
+.resume-container{
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
 }
@@ -174,7 +174,7 @@ footer {
 .flip-button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #333;
     color: white;
     border: none;
     border-radius: 5px;
@@ -250,9 +250,12 @@ footer {
     background: #666;
 }
 
-#github{
-    color: blue;
+#social{
+    text-decoration: underline;
+    color: black;
+    font-weight: 750;
 }
+
 
 @media (max-width: 768px) {
     .index-container-top, .index-container-bottom {
