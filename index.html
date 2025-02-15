@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
@@ -23,10 +23,10 @@
     <main>
       <section>
         <div class="index-container-top">
-          <article class="column">
+          <div class="column index-column">
             <img src="./images/pfp.jpg" alt="picture of me" />
-          </article>
-          <article class="column">
+          </div>
+          <article class="column index-column">
             <h2>Introduction</h2>
             <p>
               Hello! My name is Mattias Kopparberg. I am currently studying
@@ -35,14 +35,21 @@
             <p>
               In my spare time, I enjoy playing padel tennis and learning new
               things. The programming languages I am currently learning are C#,
-              HTML, CSS, and JavaScript.
+              HTML, CSS, and JavaScript. Want to learn more? Check out my
+              <a
+                class="social"
+                href="https://www.linkedin.com/in/mattias-kopparberg"
+                target="_blank"
+                >LinkedIn</a
+              >
+              or my
+              <a class="social" href="images/CV.png" target="_blank">resume</a>
             </p>
           </article>
         </div>
       </section>
-
       <section>
-        <h2>My projects</h2>
+        <h2>Current projects</h2>
         <div class="index-container-bottom">
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -58,13 +65,19 @@
                   <h2>Project Details</h2>
                   <p>
                     This is a login page project where I implemented
-                    authentication using HTML, CSS, and JavaScript. Read more on my <a id="social" href="https://github.com/MattiasKopparberg/uppgift-1-Inloggningssida/" target="_blank">github</a>
+                    authentication using HTML, CSS, and JavaScript. Read more on
+                    my
+                    <a
+                      class="social"
+                      href="https://github.com/MattiasKopparberg/uppgift-1-Inloggningssida/"
+                      target="_blank"
+                      >github</a
+                    >
                   </p>
                 </article>
               </div>
             </div>
           </div>
-
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -79,7 +92,67 @@
                   <h2>Project Details</h2>
                   <p>
                     The project you currently have open. I have made a webpage
-                    for my projects and credentials. Read more on my <a id="social" href="https://github.com/MattiasKopparberg/CV-sida" target="_blank">github</a>
+                    for my projects and credentials. Read more on my
+                    <a
+                      class="social"
+                      href="https://github.com/MattiasKopparberg/CV-sida"
+                      target="_blank"
+                      >github</a
+                    >
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <article class="column">
+                  <h2>Lorem ipsum project</h2>
+                  <img src="images/project.png" />
+                  <span class="flip-button">Hover to learn more</span>
+                </article>
+              </div>
+              <div class="flip-card-back">
+                <article>
+                  <h2>Project Details</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Atque veritatis blanditiis placeat, natus odit. Read more on
+                    my
+                    <a
+                      class="social"
+                      href="https://github.com/MattiasKopparberg/CV-sida"
+                      target="_blank"
+                      >github</a
+                    >
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <article class="column">
+                  <h2>lorem project</h2>
+                  <img src="images/project.png" />
+                  <span class="flip-button">Hover to learn more</span>
+                </article>
+              </div>
+              <div class="flip-card-back">
+                <article>
+                  <h2>Project Details</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Atque veritatis blanditiis placeat, natus odit. Read more on
+                    my
+                    <a
+                      class="social"
+                      href="https://github.com/MattiasKopparberg/CV-sida"
+                      target="_blank"
+                      >github</a
+                    >
                   </p>
                 </article>
               </div>
@@ -88,7 +161,6 @@
         </div>
       </section>
     </main>
-
     <footer>
       <p>
         <a href="https://www.linkedin.com/in/mattias-kopparberg" target="_blank"

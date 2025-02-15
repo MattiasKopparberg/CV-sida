@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About us</title>
+    <title>Full resume</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
@@ -23,31 +23,31 @@
       <article>
         <h2>Work experience</h2>
         <article class="resume-container">
-          <div class="column">
+          <div class="column left-column">
             <h2>Youth Consult</h2>
             <h3>Part:, Berghs School of Communication</h3>
-            <p>
+            <p class="CV-description">
               I was hired by :Part as a Youth Consultant and was tasked with
               finding solutions to a problem presented by Stockholm Exergi. The
               issue presented was that too few people were choosing to pursue an
               education in the electrical industry.
             </p>
-            <h3>jun 2024</h3>
+            <h3>Jun 2024</h3>
           </div>
-          <div class="column">
-            <img id="cv-image" src="./images/Bergh SOC.jpg" alt="CV Preview" />
+          <div class="column right-column">
+            <img id="cv-image" src="./images/bergh.png" alt="CV Preview" />
           </div>
-          <div class="column">
+          <div class="column left-column">
             <h2>Arbetsförlagt lärande (internship)</h2>
             <h3>Speeron</h3>
-            <p>
+            <p class="CV-description">
               The tasks I performed included installing various devices in
               network/TV systems, communicating with customers via phone/email,
               and working with installation and deployment on-site.
             </p>
-            <h3>jan 2023 - jun 2024</h3>
+            <h3>Jan 2023 - jun 2024</h3>
           </div>
-          <div class="column">
+          <div class="column right-column">
             <img
               id="speeron-image"
               src="./images/speeron.png"
@@ -56,24 +56,56 @@
         </article>
         <h2>Education</h2>
         <div class="resume-container">
-          <div class="column">
+          <div class="column left-column">
             <h2>CCST</h2>
-            <p>
-              Certificate from Cisco as proof for completing cisco's course "Cisco Certified Support Technician" 
+            <p class>
+              Certificate from Cisco as proof for completing cisco's course
+              "Cisco Certified Support Technician"
             </p>
-            <h3>may 2024</h3>
+            <h3>May 2024</h3>
           </div>
-          <div class="column">
-            <img id="CCST-image" src="images/CCST.jpg.png" alt="CCST Image" />
+          <div class="column right-column">
+            <a href="images/CCST.jpg.png" target="_blank"
+              ><img
+                id="CCST-image"
+                src="images/CCST.jpg.png"
+                alt="Image of CCST certificate"
+            /></a>
+            <p>Click to expand</p>
           </div>
-          <di class="column">
-            <h2>CCNAv7: Routing, Switching and Wireless essentials
-            <p>Certificate from Cisco as proof for completing cisco's course "CCNAv7: Switching, ROuting and Wireless essentials" </p>
-            </h2>
-            <h3>feb 2024</h3>
+          <di class="column left-column">
+            <h2>CCNAv7: Routing, Switching and Wireless essentials</h2>
+            <p>
+              Certificate from Cisco as proof for completing cisco's course
+              "CCNAv7: Switching, Routing and Wireless essentials"
+            </p>
+            <h3>Feb 2024</h3>
           </di>
-          <div class="column">
-            <img id="routing-and-switching" src="images/routing and switching.png"alt="routing and switching certificate">
+          <div class="column right-column">
+            <a href="images/routing and switching.png" target="_blank"
+              ><img
+                id="routing-and-switching"
+                src="images/routing and switching.png"
+                alt="routing and switching certificate" />
+            </a>
+            <p>Click to expand</p>
+          </div>
+          <div class="column left-column">
+            <h2>CCNAv7:Enterprise Networking, Security, and Automation</h2>
+            <p>
+              Certificate from Cisco as proof for completing cisco's course
+              "CCNAv7:Enterprise Networking, Security, and Automation"
+            </p>
+            <h3>Jun 2024</h3>
+          </div>
+          <div class="column right-column">
+            <a href="images/ENSA.png" target="_blank">
+              <img
+                id="ENSA"
+                src="./images/ENSA.png"
+                alt="Image of Enterprise Networking, Security, and Automation" />
+            </a>
+            <p>Click to expand</p>
           </div>
         </div>
       </article>
@@ -81,10 +113,12 @@
     <footer>
       <p>
         <a href="https://www.linkedin.com/in/mattias-kopparberg" target="_blank"
-          >LinkedIn</a>
+          >LinkedIn</a
+        >
         <a href="mailto:mkopparberg@hotmail.com">mkopparberg@hotmail.com</a> |
         <a href="https://github.com/mattiasKopparberg/" target="_blank"
-          >GitHub</a>
+          >GitHub</a
+        >
       </p>
     </footer>
   </body>
